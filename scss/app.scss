@@ -1,0 +1,29 @@
+@import "mixins";
+
+$clr-body-bg: #090C1D;
+$clr-card-bg: #1B1939;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: $clr-body-bg;
+    width: 100vw;
+    height: 100vh;
+
+    display: grid;
+    place-items: center;
+    justify-content: center; 
+}
+
+.card {
+    background: $clr-card-bg;
+    width: 1110px;
+    height: 446px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
